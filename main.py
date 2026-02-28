@@ -22,7 +22,6 @@ class Environment:
     def display(self):
         print(f"Room Status -> A: {self.rooms['A']} | B: {self.rooms['B']}")
 
-
 class VacuumCleaner:
     def __init__(self, location='A'):
         self.location = location
@@ -62,7 +61,6 @@ def run_simulation():
         print("----------------------------------")
 
         time.sleep(1.5)
-
 
 if __name__ == "__main__":
     run_simulation()
