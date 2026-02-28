@@ -15,7 +15,7 @@ class Environment:
         self.rooms[location] = 'Clean'
 
     def random_dirt(self):
-        if random.random() < 0.3:  # 30% chance
+        if random.random() < 0.3:
             room = random.choice(['A', 'B'])
             self.rooms[room] = 'Dirty'
 
